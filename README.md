@@ -1,9 +1,10 @@
-# LDR-Analog-Sensor-
+# LDR-Analog-Sensor
 This Arduino-based project demonstrates how to use an LDR (Light Dependent Resistor) to control an LED based on ambient light levels. The LDR acts as an analog light sensor whose resistance changes with light intensity. This change is read by the Arduino through an analog input pin, which is then used to control an LED.
 
 <img width="875" height="741" alt="2025-07-18 (2)" src="https://github.com/user-attachments/assets/cbb4344d-c409-4ef9-bd17-265d71214d9d" />
 
 How It Works:
+
 LDR & Voltage Divider:
 
 The LDR is part of a voltage divider circuit with a fixed resistor (typically 10kΩ).
@@ -41,6 +42,7 @@ Jumper wires
 USB cable for power/programming
 
 Connection Summary:
+
 Component	Connection
 
 LDR	One leg to 5V, the other to A0 and 10kΩ resistor to GND
